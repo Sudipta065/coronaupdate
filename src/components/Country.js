@@ -19,6 +19,7 @@ class Country extends React.Component {
       .then((dataOfCountry) => {
         this.setState({ CountryData: dataOfCountry.countries });
       });
+    this.fetchCountryData('Afghanistan');
   }
 
   handleChange = (event) => {
