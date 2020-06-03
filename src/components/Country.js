@@ -54,7 +54,11 @@ class Country extends React.Component {
           >
             {CountryData.map((country) => {
               return (
-                <option key={country.name} value={country.name}>
+                <option
+                  className='option-'
+                  key={country.name}
+                  value={country.name}
+                >
                   {country.name}
                 </option>
               );
@@ -66,11 +70,18 @@ class Country extends React.Component {
             <p>Confirmed </p> <p>{confirmedP} </p>
           </div>
           <div className='country-card'>
-            <p>Recovered </p> <p>{recoveredP} </p>
+            <p>Recovered </p>{' '}
+            <p>
+              {recoveredP} ({((recoveredP / confirmedP) * 100).toFixed(2)}
+              %)
+            </p>
           </div>
           <div className='country-card'>
             <p>Death </p>
-            <p>{deathsP} </p>
+            <p>
+              {deathsP} ({((deathsP / confirmedP) * 100).toFixed(2)}
+              %)
+            </p>
           </div>
         </div>
       </div>
