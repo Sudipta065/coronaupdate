@@ -5,11 +5,7 @@
   margin: 2rem 2rem;
   font-size: 1rem;
   align-items: center;
-  background-image: linear-gradient(
-    to left bottom,
-    rgba(22, 129, 122, 1),
-    rgba(2, 66, 73, 1)
-  );
+  background-color: #11999e;
 }
 .heading {
   display: flex;
@@ -17,7 +13,7 @@
   justify-content: center;
   font-size: 2.6rem;
   padding-top: 1rem;
-  color: #85a392;
+  color: #40514e;
 }
 .data-container {
   height: 90vh;
@@ -25,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: #222831;
+  color: #40514e;
 }
 .world-data {
   height: 90%;
@@ -47,8 +43,8 @@
   height: 25%;
   width: 40%;
   padding: 1.8rem 0;
-  background-color: #85a392;
-  color: #222831;
+  background-color: #e4f9f5;
+  color: #40514e;
   border: 1px solid transparent;
   box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.8);
   border-radius: 0.3rem;
@@ -56,11 +52,10 @@
 
 .country-data {
   height: 80%;
-  background-color: #85a392;
+  background-color: #e4f9f5;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   border: 1px solid transparent;
   box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.8);
@@ -69,30 +64,25 @@
 }
 
 .select-div {
-  display: flex;
-  flex-direction: column;
   height: 12%;
   margin: 1.2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .selectoption {
-  background-color: #dddddd;
+  background-color: #a6e3e9;
   border: 0;
   cursor: pointer;
   height: 2rem;
   text-align: center;
 }
 
-.option- {
-  text-align: center;
-}
 .concon {
   margin-bottom: 1rem;
 }
 .country-value {
-  height: 50%;
-  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
