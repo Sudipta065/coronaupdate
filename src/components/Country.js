@@ -83,6 +83,17 @@ class Country extends React.Component {
               %)
             </p>
           </div>
+          <div className='country-card'>
+            <p>Active Cases </p>
+            <p>
+              {confirmedP - (deathsP + recoveredP)} (
+              {(
+                ((confirmedP - (deathsP + recoveredP)) / confirmedP) *
+                100
+              ).toFixed(2)}
+              %)
+            </p>
+          </div>
         </div>
       </div>
     );
